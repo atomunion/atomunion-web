@@ -1,0 +1,305 @@
+#extjs-welcome {
+	-webkit-font-smoothing: antialiased;
+	color: #434343;
+	font: 14px/1.4em Helvetica Neue, Arial, sans-serif;
+}
+
+#extjs-welcome .logo {
+	background: url(../images/logo-screen-noglow.png) no-repeat;
+	width: 335px;
+	height: 72px;
+	margin: 0 0 0 -13px;
+	position: relative;
+	z-index: 99
+}
+
+#extjs-welcome .logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px
+}
+
+#extjs-welcome a,#extjs-welcome span.list-highlight {
+	color: #126499
+}
+
+#extjs-welcome ul {
+	font-size: 12px;
+	margin-bottom: 1em;
+	margin-left: 18px
+}
+
+#extjs-welcome ul li {
+	list-style: square
+}
+
+#extjs-welcome h1,#extjs-welcome h2 {
+	text-rendering: optimizeLegibility;
+	text-shadow: rgba(255, 255, 255, 0.8) 0 1px 1px
+}
+
+#extjs-welcome h2 {
+	color: #314e64;
+	line-height: 1.0em;
+	margin-top: 30px;
+	margin-bottom: 8px;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Damion, Helvetica Neue, Arial, sans-serif;
+	font-weight: normal
+}
+
+#extjs-welcome h2 strong {
+	font-size: 1.2em;
+	color: #4c8e0e
+}
+
+#extjs-welcome h3 {
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 4px;
+	margin-top: 1em;
+	font-weight: bold;
+	color: #314e64;
+	padding: 0
+}
+
+#extjs-welcome p {
+	margin-bottom: 1em
+}
+
+#extjs-welcome p.intro {
+	color: #314e64;
+	font-size: 15px;
+	line-height: 22px
+}
+
+#extjs-welcome .auto_columns {
+	width: 100%
+}
+
+#extjs-welcome .auto_columns::after {
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden
+}
+
+#extjs-welcome .auto_columns .auto_columns p {
+	font-size: 12px;
+	line-height: 16px
+}
+
+#extjs-welcome .two .column {
+	width: 47%;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+	position: relative;
+	box-sizing: content-box
+}
+
+#extjs-welcome .two .leftcolumn {
+	width: 38%;
+	padding-right: 2%;
+	float: left;
+	position: relative;
+	box-sizing: content-box
+}
+
+#extjs-welcome .two .rightcolumn {
+	width: 59%;
+	/*padding-right: 1%;*/
+	float: left;
+	position: relative;
+	box-sizing: content-box
+}
+
+#extjs-welcome a.button-link {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	border-color: #274807 !important;
+	background: #4c8e0e url(../images/link-green-standard.png) 0 0 repeat-x;
+	color: white;
+	-webkit-background-clip: padding-box;
+	border: 1px solid #477a09;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 1.0em;
+	padding: 6px 8px 9px;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 -1px 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block
+}
+
+#extjs-welcome a.button-link:active {
+	position: relative;
+	top: 1px
+}
+
+#extjs-welcome a.button-link:hover,#extjs-welcome a.button-link:focus,#extjs-welcome a.button-link:active
+	{
+	background: #38690a url(../images/link-green-standard-over.png) 0 0
+		repeat-x
+}
+
+#extjs-welcome a.more-icon {
+	background: url(../images/more.png) no-repeat right center;
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 16px
+}
+
+#extjs-welcome .button-group a {
+	margin-right: 12px
+}
+
+#extjs-welcome .right {
+	padding-top: 200px;
+	overflow: hidden
+}
+
+#extjs-welcome .content {
+	margin: 0 auto;
+	text-align: left;
+	width: 88%;
+	padding-top: 30px
+}
+
+#extjs-welcome section {
+	padding: 18px 9px;
+	background: white url(../images/welcome-bg-v1.png) left bottom
+		no-repeat;
+	min-height: 300px;
+	position: relative
+}
+
+#extjs-welcome .meta {
+	color: #8f8f8f
+}
+
+#extjs-welcome .inline-social {
+	text-indent: -9999px;
+	margin-top: 6px
+}
+
+#extjs-welcome .inline-social li {
+	display: block;
+	float: right;
+	margin-bottom: 8px
+}
+
+#extjs-welcome .inline-social li a {
+	color: #314e64;
+	display: block;
+	line-height: 1.0em;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	background-position: top left;
+	background-repeat: no-repeat
+}
+
+#extjs-welcome .inline-social li a.facebook {
+	background: url(../images/facebook-16.png) no-repeat
+}
+
+#extjs-welcome .inline-social li a.linkedin {
+	background: url(../images/linkedin-16.png) no-repeat
+}
+
+#extjs-welcome .inline-social li a.tumblr {
+	background: url(../images/tumblr-16.png) no-repeat
+}
+
+#extjs-welcome .inline-social li a.twitter {
+	background: url(../images/twitter-16.png) no-repeat
+}
+
+#extjs-welcome .inline-social li a.vimeo {
+	background: url(../images/vimeo-16.png) no-repeat
+}
+
+#extjs-welcome .inline-social li a.rss {
+	background: url(../images/rss-16.png) no-repeat
+}
+
+#extjs-welcome .feature-img {
+	position: absolute;
+	right: 20px;
+	top: -30px
+}
+
+#extjs-welcome footer {
+	color: #b9d4e7;
+	padding: 8px 18px;
+	font-size: 13px
+}
+
+#extjs-welcome .news {
+	width: 88%;
+	margin: 5px auto
+}
+
+#extjs-welcome .news h1 {
+	padding-bottom: 15px
+}
+
+#extjs-welcome .news .l {
+	float: left;
+	width: 450px
+}
+
+#extjs-welcome .news .r {
+	margin-left: 470px
+}
+
+#extjs-welcome .news .item {
+	padding-bottom: 3px;
+	font-size: .8em;
+	font-family: Damion, Helvetica Neue, Arial, sans-serif;
+}
+
+#extjs-welcome .news .date {
+	color: #666;
+	width: 120px;
+	display: block;
+	float: left;
+}
+
+.jCrumb{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	font-size: .9em;
+	overflow: hidden;
+}
+
+.jCrumb li{
+	float: left;
+	padding: 0 .4em;
+	line-height:1.5em;
+	height:1.5em;
+}
+
+.jCrumb li a{
+	margin-right: .4em;
+}
+.jCrumb li a.is-page{
+	color:#157ecc;
+}
+	
+.jCrumb li a.is-page:hover{text-decoration:underline;}
+
+.jCrumb li a.not-page{color:#666;}
+
+.jCrumb li a.not-page:hover{}
+
+.jCrumb li span{color:#999}

@@ -1,0 +1,176 @@
+.ibx-inner {
+	padding: 0 0 0 0;
+	background: #fefefe;
+	position: relative;
+	text-align: center;
+	height: 209px;
+	width:180px;
+}
+
+.ibx-uc-uimg {
+	padding: 0px;
+	margin: 15px 0px;
+	height: 112px;
+	position: relative
+}
+
+.ibx-uc-img {
+	width: 108px;
+	height: 108px;
+	/*border: 1px solid #1796f9;*/
+	border-radius: 108px;
+	-moz-border-radius: 108px;
+	-webkit-border-radius: 108px;
+}
+
+.ibx-uc-uimg-mask {
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 50%;
+	margin-left: -55px;
+	width: 112px;
+	height: 112px;
+	background: url(../images/resource/uc_user.png) 0 top no-repeat transparent !important;
+}
+
+.ibx-uc-uimg-mask:hover {
+	background: url(../images/resource/uc_user.png) 0 bottom no-repeat transparent !important;
+}
+
+.ibx-uc-uimg-mask:hover .ibx-uc-ulink {
+	display: block
+}
+
+.ibx-uc-ulink {
+	display: none;
+	width: 50px;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	line-height: 34px;
+	color: #ccc;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+	margin-left: -25px;
+	z-index: 5
+}
+.ibx-uc-ulink:hover {
+	color: #fff;
+}
+.ibx-uc-unick {
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 2px
+}
+
+.ibx-uc-unick .fa {
+	color: #1294F9
+}
+
+.ibx-uc-nick {
+	color: #4b4b4b;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	padding-left: 12px
+}
+
+.ibx-uc-nick:hover {
+	color: #1892f0;
+	text-decoration: none
+}
+
+.ibx-uc-nick:active {
+	color: #0981e7;
+	text-decoration: none
+}
+
+.ibx-uc-utool {
+	color: #BCBCBC;
+	line-height: 12px;
+	font-size:8px;
+	font-weight:100;
+}
+
+.ibx-uc-utool .ibx-uc-utool-mobile,.ibx-uc-utool .ibx-uc-utool-envelope {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px 0px 0px 16px;
+	height: 12px;
+}
+
+.ibx-uc-utool .ibx-uc-utool-mobile {
+	background: url(../images/icons/icon-security-mobile.png) 0 0 no-repeat !important;
+}
+
+.ibx-uc-utool .ibx-uc-utool-mobile:hover,.ibx-uc-utool .ibx-uc-utool-mobile.current {
+}
+
+.ibx-uc-utool .ibx-uc-utool-mobile:active {
+}
+
+.ibx-uc-utool .ibx-uc-utool-envelope {
+	background: url(../images/icons/icon-security-mail.png) 0 0 no-repeat !important;
+}
+
+.ibx-uc-utool .ibx-uc-utool-envelope:hover,.ibx-uc-utool .ibx-uc-utool-envelope.current {
+}
+
+.ibx-uc-utool .ibx-uc-utool-envelope:active {
+}
+
+.ibx-uc-uop {
+	padding:5px;
+}
+.ibx-uc-uop-item {
+	float: left;
+	width: 50%;
+	height:20px;
+	padding:2px 2px 2px 2px;
+}
+.ibx-uc-uop-item a {
+	padding:0px 0px 0px 18px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3d3d3d;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.ibx-uc-uop-item a:hover {
+	color: #1294F9
+}
+
+.ibx-uc-uop-item a:active {
+	color: #1580ed
+}
+
+.ibx-uc-utool-tip {
+	padding: 0 5px;
+	color: #D65A50;
+	line-height: 18px
+}
+
+.ibx-uc-utool-none {
+	width: 108px;
+	height: 18px;
+	line-height: 18px;
+	color: #D65A50;
+	border: 1px solid #FFDFC9;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size: 12px;
+	background-color: #FBF397;
+	margin: -2px auto 0 auto;
+	*margin-top: 4px;
+	visibility: hidden
+}
+
+.ibx-uc-utool-none.current {
+	visibility: visible
+}
